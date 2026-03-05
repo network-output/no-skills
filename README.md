@@ -34,16 +34,24 @@ cargo install network-output
 
 ### Using the Plugin
 
-#### Local (from this repo)
-
-```bash
-claude --plugin-dir ./claude-plugin
-```
-
 #### From GitHub
 
 ```bash
 claude --plugin network-output/no-skills
+```
+
+#### Built into `no`
+
+```bash
+no skills install
+```
+
+This writes the plugin to `~/.claude/plugins/no/`.
+
+#### Local (from this repo)
+
+```bash
+claude --plugin-dir ./claude-plugin
 ```
 
 ## Structure
