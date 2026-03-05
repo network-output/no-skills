@@ -1,0 +1,13 @@
+{
+  "name": "no",
+  "description": "AI skills for the no (network-output) CLI tool -- structured networking across HTTP, WebSocket, TCP, UDP, MQTT, SSE, DNS, Ping, and WHOIS.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Felipe Lima",
+    "url": "https://github.com/network-output"
+  },
+  "homepage": "https://network-output.com",
+  "repository": "https://github.com/network-output/no-skills",
+  "license": "Apache-2.0",
+  "keywords": ["networking", "http", "websocket", "tcp", "udp", "mqtt", "sse", "dns", "ping", "whois", "cli", "api-testing"]
+}
